@@ -1,0 +1,26 @@
+<h1>Ответ</h1>
+
+<table border = '1' >
+  <tr>
+    <td>Значения итераций</td>
+    <td> Номера итераций </td>
+
+    <tr>
+
+    <% @iterations.each_index do |i|%>
+        <td>
+          <%=@iterations[i]%>
+        </td>
+        <td>
+          <%=i+=1%>
+        </td>
+
+    </tr>
+
+
+
+    <%end%>
+
+</table>
+
+<%=link_to "Главная страница", root_url%>

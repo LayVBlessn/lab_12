@@ -1,0 +1,2 @@
+module HypHelper
+end
